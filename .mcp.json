@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lifemaster": {
+      "type": "http",
+      "url": "https://app.lifemaster.ai/mcp"
+    }
+  }
+}

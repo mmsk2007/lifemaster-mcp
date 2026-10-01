@@ -1,0 +1,13 @@
+{
+  "name": "lifemaster",
+  "version": "0.1.0",
+  "description": "Manage tasks, projects, reminders, calendar and permitted native-agent actions in LifeMaster.",
+  "author": {
+    "name": "Dello AI FZC"
+  },
+  "homepage": "https://app.lifemaster.ai",
+  "license": "MIT",
+  "keywords": [
+    "lifemaster"
+  ]
+}

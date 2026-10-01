@@ -1,0 +1,11 @@
+{
+  "name": "lifemaster",
+  "version": "0.1.0",
+  "description": "Manage tasks, projects, reminders, calendar and permitted native-agent actions in LifeMaster.",
+  "mcpServers": {
+    "lifemaster": {
+      "httpUrl": "https://app.lifemaster.ai/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
