@@ -24,7 +24,7 @@ Where the account exposes custom MCP apps/connectors, use `https://app.lifemaste
 
 Only `https://app.lifemaster.ai/mcp` and the OAuth authorization server advertised by that origin are configured. User data stays scoped to the signed-in product account and the permissions selected during consent. No shell commands, hooks, telemetry, account tokens or local secret readers are shipped.
 
-All products have a free version. Plans, credits and connected third-party services may impose limits or charges; this wrapper buys nothing and changes no plan. LifeMaster finance actions record a ledger, not bank payments. Calls and external services require separate permission and finite limits. Autonomous missions, scheduled calls, server administration and credential changes are not available through this bridge.
+All products have a free version. Plans, credits and connected third-party services may impose limits or charges; this wrapper buys nothing and changes no plan. LifeMaster finance actions record a ledger, not bank payments. Calls and external services require separate permissions. Calls use each connected user’s current LifeMaster plan, free allowance and credits, with optional stricter connection caps. Free, Pro and Premium keep their own native entitlements; connecting MCP does not change the plan. Autonomous missions, scheduled calls, server administration and credential changes are not available through this bridge.
 
 Product website: https://app.lifemaster.ai
 
